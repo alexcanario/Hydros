@@ -1,0 +1,22 @@
+name: Push github directory to another azure devops repository
+on:
+  push:
+    branches:
+      - '*' # applies for all branches in github.
+      - '!master' # This line is used to restrict this pipeline which won't triggers for master branch. remove this if you need to trigger for code push in master branch (Create PR if needed in devops repos)
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    environment: develop # mention that environment name that what we have created in step 1.
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run script file
+      env:
+        AZUREPAT: ${{secrets.AZUREPAT}} # calling secrets from environment variables
+        AZUSERNAME: ${{secrets.AZUSERNAME}}
+        AZUSER_EMAIL: ${{secrets.AZUSER_EMAIL}}
+        AZORG: ${{secrets.AZORG}}
+      run: |
+         chmod +x ./commit.sh
+         ./commit.sh # it will calls 'commit.sh' file. Thats where our logic is in.
+      shell: bash
