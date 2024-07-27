@@ -13,6 +13,7 @@ git fetch --unshallow
 
 # Pull changes from Azure DevOps if its exiting branch and have commits on it
 git pull https://$AZUSERNAME:$AZUREPAT@dev.azure.com/$AZORG/Hydros/_git/Hydros
+         #https://alexcanario@dev.azure.com/alexcanario/Hydros/_git/Hydros
 
 #git checkout -b $github_to_azure_sync
 
