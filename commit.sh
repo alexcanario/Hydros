@@ -6,7 +6,7 @@ AZUSER_EMAIL=$AZUSER_EMAIL
 AZORG=$AZORG
 
 # Remove Git information (for fresh git start)
-rm -rf Brain-Squeezes/.git
+rm -rf hydros/.git
 
 # Fetch the changes from Azure DevOps to ensure we have latest
 git fetch --unshallow
