@@ -3,7 +3,7 @@ Hydros Blazor Project
 	This project has these features
 		Water consuming
   		Bills to pay
-    		Todo list
+		Todo list
 
   	Tecnologies
 	  	Web api for external request
