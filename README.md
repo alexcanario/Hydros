@@ -1,8 +1,7 @@
 Hydros Blazor Project
 
-This project has these features
-
-  Water consuming
+	This project has these features
+		Water consuming
   
   Bills to pay
   
