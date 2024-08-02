@@ -12,5 +12,6 @@ Hydros Blazor Project
 
 	Design pattern
 		DDD
-		Architecture
+  
+  	Architecture
   
