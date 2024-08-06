@@ -1,0 +1,12 @@
+﻿D:\labs\_cs\Hydros\src\Hydros.Api\Controllers\WeatherForecastController.cs
+D:\labs\_cs\Hydros\src\Hydros.Api\Program.cs
+D:\labs\_cs\Hydros\src\Hydros.Api\WeatherForecast.cs
+D:\labs\_cs\Hydros\src\Hydros.Api\obj\Debug\net8.0\Hydros.Api.GlobalUsings.g.cs
+D:\labs\_cs\Hydros\src\Hydros.Api\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+D:\labs\_cs\Hydros\src\Hydros.Api\obj\Debug\net8.0\Hydros.Api.AssemblyInfo.cs
+D:\labs\_cs\Hydros\src\Hydros.Api\obj\Debug\net8.0\Hydros.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\labs\_cs\Hydros\src\Hydros.Api\appsettings.Development.json
+D:\labs\_cs\Hydros\src\Hydros.Api\appsettings.json
+D:\labs\_cs\Hydros\src\Hydros.Api\Hydros.Api.http
+D:\labs\_cs\Hydros\src\Hydros.Api\Properties\launchSettings.json
+D:\labs\_cs\Hydros\src\Hydros.Api\obj\Debug\net8.0\apphost.exe
